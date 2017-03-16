@@ -104,7 +104,6 @@ def barcodeCombinationMerger(barcodeList,
         barcodeDictList[barcode] = barcodeCombinationGenerator_withMissingBase(barcode,
                                                                                stationaryIndex_missed,
                                                                                missedMatchNumber)
-        barcodeDictList[barcode].update(barcodeCombinationGenerator_withMissingBase(barcode, [], 3))
         barcodeDictList[barcode].update(barcodeCombinationGenerator_withUnreadBase(barcode,
                                                                                    stationaryIndex_unread,
                                                                                    maxUnreadBase))
