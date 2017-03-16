@@ -132,9 +132,9 @@ def __main__():
     stationaryIndex_missed = [6,7]
     stationaryIndex_unread = [6,7]
     barcodeLength = 8
-    #originalFastqFileDirectory = '/mnt/projects/cukuroglue/projects/iwonaReporter/out/Undetermined_S0_L005_R1_001.fastq.gz'
-    originalFastqFileDirectory = '/mnt/projects/cukuroglue/projects/iwonaReporter/out/Project_MUX4713/Sample_DHE118/DHE118-ATCACGTG_S51_L005_R1_001.fastq.gz'
-    #originalFastqFileDirectory = '/mnt/projects/cukuroglue/projects/iwonaReporter/out/Project_MUX4713/Sample_DHE117/DHE117-CGATGTCA_S50_L005_R1_001.fastq.gz'
+   
+    originalFastqFileDirectory = ''
+    
     finalFastqFileDepository = 'finalFastq_Dummy_v3'
     if not os.path.exists(finalFastqFileDepository):
         os.makedirs(finalFastqFileDepository)
